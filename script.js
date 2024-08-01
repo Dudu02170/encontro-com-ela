@@ -16,7 +16,7 @@ function responderSim() {
         localStorage.setItem('dia', diasDaSemana[parseInt(escolhaDia) - 1]);
 
         // Adiciona uma pergunta sobre a comida
-        var escolhaComida = prompt("O que você gostaria de comer ou prefere que eu escolha para você?");
+        var escolhaComida = prompt("O que você gostaria de fazer?");
         localStorage.setItem('comida', escolhaComida);
 
         alert("Estou ansioso para nosso encontro! 🥰");
