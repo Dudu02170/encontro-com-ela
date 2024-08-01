@@ -37,6 +37,6 @@ function exibirRespostaArmazenada() {
     if (respostaArmazenada === 'sim' && diaArmazenado) {
         document.getElementById('resposta-container').innerHTML = `<p>Você escolheu sair. 🥰</p>`;
         document.getElementById('dia-container').innerHTML = `<p>Dia escolhido: ${diaArmazenado}</p>`;
-        document.getElementById('comida-container').innerHTML = `<p>Preferência de comida: ${comidaArmazenada}</p>`;
+        document.getElementById('comida-container').innerHTML = `<p>Preferência de local: ${comidaArmazenada}</p>`;
     }
 }
