@@ -8,7 +8,7 @@ function responderSim() {
         return `${index + 1}. ${dia}`;
     });
 
-    var escolhaDia = prompt(`Escolha o dia da semana para o encontro:\n${opcoesDia.join('\n')}`);
+    var escolhaDia = prompt(`Escolha o dia da semana para o nosso encontro:\n${opcoesDia.join('\n')}`);
 
     if (escolhaDia !== null) {
         // Armazena a resposta e o dia escolhido no localStorage
@@ -16,7 +16,7 @@ function responderSim() {
         localStorage.setItem('dia', diasDaSemana[parseInt(escolhaDia) - 1]);
 
         // Adiciona uma pergunta sobre a comida
-        var escolhaComida = prompt("O que você gostaria de fazer?");
+        var escolhaComida = prompt("O que gostarias de fazer?");
         localStorage.setItem('comida', escolhaComida);
 
         alert("Estou ansioso para nosso encontro! 🥰");
@@ -25,7 +25,7 @@ function responderSim() {
 }
 
 function responderNao() {
-    alert("Sem problemas! Se mudar de ideia, estarei por aqui. 😊");
+    alert("Sem problemas! Se mudar de ideia, estarei te aguardando. 😊");
 }
 
 // Adicione uma função para exibir a resposta armazenada
