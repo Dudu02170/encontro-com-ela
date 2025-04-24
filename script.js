@@ -1,7 +1,7 @@
 function responderSim() {
     alert("Ótimo! Agora, para escolher o local...");
 
-    // Adicione um dropdown para escolher o dia da semana
+    // Adiciona um dropdown para escolher o dia da semana
     var diasDaSemana = ['Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
 
     var opcoesDia = diasDaSemana.map(function(dia, index) {
@@ -28,7 +28,7 @@ function responderNao() {
     alert("Sem problemas! Se mudar de ideia, estarei te aguardando. 😊");
 }
 
-// Adicione uma função para exibir a resposta armazenada
+// Adiciona uma função para exibir a resposta armazenada
 function exibirRespostaArmazenada() {
     var respostaArmazenada = localStorage.getItem('resposta');
     var diaArmazenado = localStorage.getItem('dia');
